@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./plantilla_contrato.css" media="screen" />
+    <title>medical_pdf</title>
+</head>
+<body id="body">
+   <div style="display:flex;position:absolute; width:100%; height: 100%;">
+        <img src="../../Shared/Marca-Agua_MHC (1).png" style="position:relative;width: 25rem;height: 25rem; left: 17%; top:25%"></img>
+   </div>
+   <div id="pdf_container">
+      <div class="HeaderContainer">
+          <div class="TitleContainer">
+            <figure class="FigureContainer" style="margin-top: 1rem;">
+                <img src="./sources/Captura_de_pantalla_20230204_025518-removebg-preview.png" alt="medical_logo">
+            </figure>
+            <div class="title-info-Container" style="margin-top: 1rem; margin-left: 10rem;">
+                 <span class="bold black">MEDICAL HOME CARE - MHC S.A.S</span>
+                 <span class="bold black">NIT 901229604-1</span>
+                 <p class="details blue">
+                    <span class="bold black">Dirección </span><span>CRA 28D 70-04</span>
+                 </p>
+                 <p class="details blue">
+                    <span class="bold black">Teléfono </span><span>8900550</span>
+                 </p>
+                 <p class="details blue txt-regular">
+                    <span class="bold black">Email </span>INFO@MEDICALHOMECARECOLOMBIA.COM
+                 </p>
+            </div>
+          </div>
+          
+            <div class="details-container-patient border-radius">
+               <div class="flex-direction-column Padding-">
+                  <span class="bold black">CONTRATO LABORAL A TERMINO INDEFINIDO </span>
+                  <p class="details blue txt-regular">
+                     <span class="bold black">No. </span><span>{{contractNumber}}</span>
+                  </p>
+                  <br>
+                  <span class="bold black">MEDICAL HOME CARE S.A.S. Nit 901229604-1</span>
+                  <p class="details blue txt-regular">
+                     <span class="bold black">Y </span><span>{{employeeName}}</span>
+                  </p>
+               </div>
+            </div>
+            <div class="entityContainer">
+            <span class="bold black">NOMBRE DEL EMPLEADOR: MEDICAL HOME CARE S.A.S.</span>
+            <span class="bold black">NIT: 901229604-1</span>
+            <p class="details gray txt-regular">
+               <span class="bold black">DOMICILIO Y TELÉFONO: </span><span>MANIZALES, CALDAS Dir. carrera 24 No. 65 a – 33 edf. Multiplaza el cable torre empresarial oficina. 807. Tel. 3214411673 – (606)8944242</span>
+            </p>
+            <span class="bold black">REPRESENTANTE LEGAL: FRANCY LILY GARCÍA IDARRAGA</span>
+            <p class="details gray txt-regular">
+               <span class="bold black">DOCUMENTO DE IDENTIDAD:  </span><span>C.C. No. 30.237.281 de Manizales, Caldas</span>
+            </p>
+            <br>
+            <span class="bold black">NOMBRE DEL EMPLEADO(A): {{empleadoName}}</span>
+            <span class="bold black">DOCUMENTO DE IDENTIDAD: C.C. {{document}}</span>
+            <span class="bold black">DOMICILIO Y TELÉFONO:  {{adressAndPhone}}</span>
+            <span class="bold black">EMAIL:  {{email}}</span>
+            <br>
+            <span class="bold black">CARGO DEL COLABORADOR: MEDICO GENERAL PARA ATENCION DOMICILIARIA</span>
+            <br>
+            <span class="bold black">FECHA DE INICIO DE CONTRATO: {{startDate}}</span>
+            <br>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               En la ciudad de Manizales, Caldas, a los nueve días (---) del mes de ----- del año dos mil veinte---- (202---), entre <span class="bold black">LILY GARCÍA IDARRAGA,</span> quien actúa en calidad de representante legal de <span class="bold black">MEDICAL HOME CARE S.A.S. NIT. 901229604-1</span> y -----------------------quien actúa en nombre propio, personas domiciliadas en esta ciudad, identificadas como aparece al pie de nuestras correspondientes firmas, quienes para los efectos legales se denominan <span class="bold black">EL EMPLEADOR,</span> la primera, y <span class="bold black">EL TRABAJADOR,</span> la segunda, acuerdan celebrar el presente <span class="bold black">CONTRATO LABORAL A TERMINO INDEFINIDO,</span> regido por las siguientes:
+            </p>
+            <br>
+            <span class="bold black">CLÁUSULAS:</span>
+            <br>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               <span class="bold black">PRIMERA. OBJETO:</span> EL EMPLEADOR contratará los servicios personales del trabajador para el cargo de MEDICO GENERAL PARA ATENCION DOMICILIARIA. EN LAS CIUDADES DE MANIZALES, CALDAS SU PERIFERIA Y ARMENIA, QUINDIO Y SU PERIFERIA. 
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               <span class="bold black">SEGUNDA. FUNCIONES: </span>En relación con la actividad propia del trabajador, este la ejecutará dentro de las siguientes modalidades FUNCIONES:
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               a) Realizar control y seguimiento a los pacientes de cuidado crónico domiciliario y/o cuidados paliativos.
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               b)	Realizar consultas prioritarias, domiciliarias o por teleconsulta, cuando se requiera. 
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               c)	Reportar al Director Médico paraclínicos, evoluciones del paciente, y los demás datos que se consideren pertinentes de cada consulta.
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               d)	Atender las consultas programadas y asignadas por el área encargada (Operador central de regulación).
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               e)	Realizar las altas hospitalarias cuando corresponda.    
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               f)	Realizar visitas al paciente al iniciar y finalizar la hospitalización.
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               g)	Elaborar incapacidades médicas cuando se considere necesario.
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               h)	Diligenciar el drive extra de pacientes de SURA y SALUD TOTAL con los datos requeridos para el debido reporte a dichas entidades.
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               i)	Realizar protocolo de consulta a cada paciente.
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               j)	Ordenar y leer exámenes paraclínicos cuando sea necesario.
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               k)	Administrar medicamentos intramusculares en la consulta cuando sea necesario. Cuando se requiera aplicación intravenosa se debe dar la orden médica para que el auxiliar de enfermería lo realice.
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               l)	Emitir la respectiva formula médica en cada consulta.
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               m)	Recaudar copagos y cuotas moderadoras, dejando un recibo para el paciente del cual se sebe entregar copia al asistente administrativo..
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               n)	Ordenar la hospitalización domiciliaria del paciente cuando se considere necesario.
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               o)	Ingresar y justificar en la respectiva plataforma de orden de medicamentos que no están contemplados en el Plan Obligatorio de Salud.
+               Y las  que implican claras obligaciones para el mismo trabajador, así: Revisar y evacuar todas las comunicaciones internas y externas (como correos electrónicos, llamadas, solicitudes, tareas, etc), 
+               aplicar el reglamento interno de trabajo, el cual declara conocer y aceptar con la suscripción del presente contrato,  mantener depurados, actualizados y vacunados, los archivos y equipos de cómputo, 
+               y usarlos en tareas propias de su trabajo y no en beneficio personal o propio, o para el acceso a sitios de internet inapropiados, que en cualquier caso generan entretenimiento como juegos, videos, imágenes, 
+               música, chat y otros de esta característica; así mismo estar en permanente comunicación para el reporte de novedades y/o cambios que se presentan en las facturas, apoyo a la gestión asistencial y administrativa 
+               bajo los parámetros y lineamientos de la empresa, todas las demás funciones que en desarrollo de su trabajo sean necesarias para el cumplimiento de sus obligaciones, revisar y hacer seguimiento a las planillas de inventarios, 
+               promocionar los servicios  que ofrece la empresa ante los clientes potenciales en el ámbito residencial, industrial, comercial y educativo, revisar y evacuar todas las comunicaciones internas y externas (correos electrónicos, 
+               llamadas, solicitudes, etc). <span class="bold black">PARAGRAFO PRIMERO:</span> Además de las funciones antes mencionadas se incorporarán todas aquellas que resulten como compromisos y tareas en los diferentes comités de gerencia y/o reuniones entre áreas, 
+               las cuales serán revisadas periódicamente y serán de obligatorio cumplimiento, como también las que surjan durante la ejecución del presente contrato, como las demás que se estipulan dentro del manual de funciones. <span class="bold black">PARÁGRAFO SEGUNDO:</span> 
+               Las partes declaran que en el presente contrato se entienden incorporadas, en lo pertinente, las disposiciones legales que regulan las relaciones entre la empresa y sus trabajadores, en especial, las del contrato de trabajo para el oficio que se suscribe, 
+               fuera de las obligaciones consignadas en los reglamentos de trabajo y de higiene y seguridad industrial de la empresa.               
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               <span class="bold black">TERCERA. PERIODO DE PRUEBA Y TÉRMINO DE DURACIÓN DEL CONTRATO: </span>El presente contrato tendrá una duración por un TÉRMINO INDEFINIDO) 
+               de acuerdo a lo establecido en este documento. Los primeros dos (2) meses del presente contrato se consideran como periodo de prueba y, por consiguiente, cualquiera de las partes podrá darlo por terminado unilateralmente sin que haya lugar a indemnización alguna. Vencido este término la duración del contrato se regirá por el tiempo que se requiera la labor u obra contratado; esto es por el tiempo que dure la reestructuración administrativa de MEDICAL HOME-CARE.
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               <span class="bold black">CUARTA. LUGAR Y FORMA DE EJECUCIÓN: </span>El contrato se ejecutará en la ciudad de Manizales (Caldas), en su periferia, en la ciudad de Armenia, Quindío y su periferia y en otros sitios que la empresa previamente disponga. Las partes podrán convenir que el trabajo se preste en lugar distinto al inicialmente contratado, siempre que tales traslados no desmejoren las condiciones laborales o de remuneración del trabajador, o impliquen perjuicios para él. Los gastos que se originen con el traslado serán cubiertos por el empleador de conformidad con el numeral 8º del artículo 57 del Código Sustantivo del Trabajo. El trabajador se obliga a aceptar los cambios de oficio que decida el empleador dentro de su poder subordinante, siempre que se respeten las condiciones laborales del trabajador y no se le causen perjuicios. Todo ello sin que se afecte el honor, la dignidad y los derechos mínimos del trabajador, de conformidad con el artículo 23 del Código Sustantivo del Trabajo, modificado por el artículo 1º de la Ley 50 de 1990.
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               <span class="bold black">QUINTA. JORNADA LABORAL: </span>El trabajador se obliga a laborar la jornada máxima legal, en los días de lunes a sábados, en los turnos y dentro de las horas señaladas por el empleador, pudiendo hacer éste ajustes o cambios de horario cuando lo estime conveniente. Por el acuerdo expreso o tácito de las partes, podrán repartirse las horas jornada ordinaria de la forma prevista en el artículo 164 del Código Sustantivo del Trabajo, modificado por el artículo 23 de la Ley 50 de 1990, teniendo en cuenta que los tiempos de descanso entre las secciones de la jornada no se computan dentro de la misma, según el artículo 167 ibídem.
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               <span class="bold black">PARÁGRAFO PRIMERO: </span>Todo trabajo suplementario o en horas extras y todo trabajo en día domingo o festivo en los que legalmente debe concederse el descanso, se remunerará conforme a la Ley, así como los correspondientes recargos nocturnos. Para el reconocimiento y pago del trabajo suplementario, dominical o festivo el empleador o sus representantes deben autorizarlo previamente por escrito. Cuando la necesidad de este trabajo se presente de manera imprevista o inaplazable, deberá ejecutarse y darse cuenta de él por escrito, a la mayor brevedad, al empleador o sus representantes. El empleador, en consecuencia, no reconocerá ningún trabajo suplementario o en días de descanso legalmente obligatorio que no haya sido autorizado previamente o avisado inmediatamente, como queda dicho.
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               <span class="bold black">SEXTA.SALARIO: </span>EL EMPLEADOR pagará al TRABAJADOR por la prestación de sus servicios un salario básico mensual de: ($----------.oo) ---------------------------------------CORRIENTE, MAS UN auxilio de transporte cuando hay lugar a su pago y las correspondientes prestaciones legales (seguridad social y prestaciones sociales) a que tiene derecho, pagadero en periodos MENSULAES. <span class="bold black">PARÁGRAFO PRIMERO:</span> Cuando la jornada laboral convenida no implique la prestación de servicios todos los días de la semana, la remuneración será proporcional al tiempo laborado.
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               <span class="bold black">SÉPTIMA. OBLIGACIONES DEL EMPLEADOR: </span>son obligaciones especiales del empleador:
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               <span class="bold black">a) </span>Facilitar el acceso a la información que sea necesaria, de manera oportuna, para la debida ejecución del objeto del contrato; estará obligado a cumplir con lo estipulado en las demás cláusulas y condiciones pre­vistas en este documento.
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               <span class="bold black">b) </span>Realizar el pago del salario referido en la cláusula quinta de este contrato, conforme a los términos y condiciones allí establecidas.
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               <span class="bold black">c) </span>Las demás obligaciones especiales del empleador, consagradas en el artículo 57 del Código Sustantivo del Trabajo.
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               <span class="bold black">OCTAVA. EXCLUSIVIDAD: </span> el TRABAJADOR se obliga a aportar a favor del EMPLEADOR toda su capacidad normal de trabajo, ejecutando personalmente su labor, y a no prestar directa o indirectamente sus servicios laborales a otros empleadores, de igual forma todos los conocimientos, cursos y capacitaciones que sean adquiridos con relación a la labor a desempeñar serán utilizados única y exclusivamente a favor del EMPLEADOR durante la vigencia del presente contrato.
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               <span class="bold black">NOVENA. CONFIDENCIALIDAD: </span>el TRABAJADOR se compromete de manera expresa, tanto durante la vigencia del contrato, como después de su extinción, por un término indefinido, a no difundir, transmitir, revelar a terceras personas cualquier información del EMPLEADOR, a la que tenga acceso como consecuencia del desempeño de su actividad laboral, ni a utilizar tal información en interés propio o de sus familiares o amigos. Se extiende a la reproducción en cualquier soporte de la información del EMPLEADOR a la que tenga acceso sobre clientes, procedimientos y sistemas de organización, programas informáticos o cualquier otro tipo de información interna. Así mismo se compromete a suscribir acuerdo de confidencialidad (documento anexo a este contrato y que forma parte esencial del mismo).
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               <span class="bold black">DÉCIMA.INVENCIONES Y PATENTES: </span>Los descubrimientos, invenciones y las mejoras en los procedimientos, lo mismo que todos los trabajos y consiguientes resultados de las actividades propias del cargo, incluso aquellos de que trata el inciso 2º, del Art. 539 del código de comercio, serán propiedad del EMPLEADOR, además este tendrá derecho a patentar a su nombre y/o a nombres de terceros esos inventos o mejoras, para lo cual el TRABAJADOR de antemano se obliga a facilitar el cumplimento oportuno de las correspondientes formalidades y a dar firma o extender poderes necesarios para tal fin, cuando se lo solicite el EMPLEADOR sin que este quede obligado al pago de compensación alguna.
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               <span class="bold black">(REGLAMENTO DE TRABAJO): </span> </span>el <span class="bold black">TRABAJADOR</span> declara que conoce y acepta el reglamento interno de trabajo establecido por el <span class="bold black">EMPLEADOR</span>
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               <span class="bold black">DÉCIMO PRIMERA. FALTAS GRAVES: </span>Constituyen faltas de terminación las que por su alta gravedad, dan como consecuencia la terminación por justa causa del contrato de trabajo por parte del EMPLEADOR, y se aplicara siempre que indica negativamente en la prestación del servicio cause perjuicio de consideración a la empresa; las cuales se relacionan a continuación: 
+               <span class="bold black">a)</span> La violación por parte del TRABAJADOR a las normas y obligaciones legales, contractuales o reglamentarias adquiridas. <span class="bold black">b)</span> la ejecución por parte del TRABAJADOR de labores remuneradas al servicio de terceros, sin la previa y expresa autorización por Parte del EMPLEADOR  
+               <span class="bold black">c)</span> la negligencia del trabajador en la jornada laboral, <span class="bold black">d)</span> la ausencia del trabajador sin justa causa o excusa insuficiente a la jornada o turno correspondiente, <span class="bold black">e)</span> presentarse el TRABAJADOR a su lugar de trabajo en estado de alicoramiento o drogadicción o consumir dichas sustancias psicoactivas dentro del sitio de trabajo o en su jornada laboral, 
+               <span class="bold black">f)</span> abandonar el TRABAJADOR el sitio de trabajo durante la jornada laboral sin justificación alguna o sin el permiso de sus superiores <span class="bold black">g)</span> sustraer de las instalaciones donde se presta el servicio, los implementos de trabajo, útiles de oficina, elementos de propiedad de funcionarios, dotaciones, insumos, materias primas o productos elaborados, sin permiso del EMPLEADOR o de personal autorizado  
+               <span class="bold black">h)</span> cualquier violación grave al manual de funciones y/o al reglamento interno de la empresa. <span class="bold black">PARAGRAFO PRIMERO:</span> De comprobarse que la conducta del trabajador fue dolosa, negligente, imprudente o descuidada y con este actuar causó daños patrimoniales considerables a la empresa y/o algunos de sus funcionarios, dicha conducta será resarcida descontando al trabajador 
+               los valores causados por dichos daños, al término de la relación laboral si fuese el caso o de su salario previa autorización del trabajador, por analogía con fundamento en las normas del <span class="bold black">Código Civil Colombiano</span> que regulen la materia, así lo dispone el <span class="bold black">C.S.T. en su Artículo 9. PARAGRAFO SEGUNDO:</span> Como garantía del pago y/o descuentos por dolo patrimonial el trabajador se compromete a suscribir pagaré con su respectiva carta de instrucciones a favor del empleador, documento que será anexado a este contrato y parte esencial del mismo.
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               <span class="bold black">DÉCIMO SEGUNDA. TERMINACIÓN:  </span>El presente contrato podrá darse por terminado:
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               (a)	Por mutuo acuerdo entre las partes. 
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               (b)	En forma unilateral por el incumplimiento de las obligaciones derivadas del contrato, por cualquiera de ellas. 
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               (c)	Son justas causas para dar por terminado unilateralmente este contrato por cualquiera de las partes, las enumeradas en los artículos 62 y 63 del Código Sustantivo del Trabajo; y, además, por parte del empleado, las faltas que para el efecto se califiquen como graves.
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               <span class="bold black">DÉCIMO TERCERA. PAZ Y SALVO EMPRESARIAL:  </span>Al término de la relación laboral todo trabajador debe presentar para el pago de su liquidación un <span class="bold black">paz y salvo</span> de todas las áreas de la empresa donde conste que está al día por todo concepto y aun en la entrega de información relevante del cargo.
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               <span class="bold black">DÉCIMO CUARTA. NORMATIVIDAD APLICABLE:  </span>Este contrato ha sido redactado estrictamente de acuerdo con la ley y la jurisprudencia y será interpretado de buena fe y en consonancia con el Código Sustantivo del Trabajo cuyo objeto, definido en su artículo 1º, es lograr la justicia en las relaciones entre EMPLEADORES y TRABAJADORES, dentro de un espíritu de coordinación económica y equilibrio social.  Las partes contratantes se someterán a lo establecido en este contrato y reglamento interno de trabajo y lo estipulado en el Código Sustantivo del Trabajo. El presente contrato reemplaza en su integridad y deja sin efecto alguno cualquier otro contrato verbal o escrito celebrado entre las partes con anterioridad.  Las modificaciones que se acuerden al presente contrato se anotarán a continuación de su texto. <span class="bold black">PARÁGRAFO UNO:</span> Queda establecido que este contrato está regido por el nuevo Régimen de Cesantías establecido por la ley 50 de 1990 y sus normas reglamentarias, por lo que no se genera retroactividad de las mismas, siendo elección exclusiva del <span class="bold black">TRABAJADOR</span> la afiliación al fondo de cesantías que prefiera. 
+            </p>
+            <p class="gray fz-small" style="text-align: justify;"> 
+               <span class="bold black">DÉCIMO QUINTA. DOMICILIO CONTRACTUAL:  </span>Para todos los efectos legales, el domicilio contractual será la ciudad de Manizales, Caldas y las notificaciones serán recibidas por las partes en las siguientes direcciones: Por el EMPLEADOR en: Carrera 21 # 64 A 33; por el TRABAJADOR en:------------------------------------------------.
+            </p>
+            <br>
+            <p class="gray fz-small">
+               Para constancia se firma por las partes intervinientes, en la ciudad de Manizales, departamento de Caldas, a los ------- (0---) días del mes de -------- del año dos mil veinte----- (202----).
+            </p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div style="display: flex; flex-direction: row; margin-bottom: 3rem;">
+                    <div class="FirmaContainer middle-size">
+                    <div  class="Firma"></div>
+                    <span class="bold black mt-5">EL EMPLEADOR</span>
+                    <span class="bold black">FRANCY LILY GARCIA IDÁRRAGA</span>
+                    <span class="bold black mt-5">CC <span class="blue">1005691633</span></span>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="FirmaContainer middle-size">
+                    <div  class="Firma"></div>
+                    <span class="bold black mt-5">EL TRABAJADOR</span>
+                    <span class="bold black mt-5">CC <span class="blue">1005691633</span></span>
+                    </div>
+            </div>
+      </div>
+   </div>
+</body>
+<footer class="footer-logo">
+   <figure class="FigureContainer">
+      <img src="./sources/footerImage.png" alt="medical_logo">
+  </figure>
+</footer>
+</html>
